@@ -1,0 +1,9 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.cell{
+    border: 1px solid black;
+    height: 15px;
+}
