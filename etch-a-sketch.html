@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Etch a Sketch</title>
+        <meta charset="utf-8">
+        <title>Etch a Sketch - Ken Yu</title>
         <link rel="stylesheet" href="style.css" type="text/css">
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     </head>
+
     <body>
-    <table id="table"></table>
+        <div id="container">
+            <div id="menu">
+                <h1>Sketch Away!</h1>
+                <div class="menu-section">
+                    <button class="buttons" id="clean">CLEAN</button>
+                    <button class="buttons" id="resize">RESIZE</button>
+                </div>
+                <div class="menu-section">
+                    <button class="buttons" id="random">RANDOMIZE COLOR</button>
+                    <br/>
+                    <input type="color" id="color-input" class="buttons">
+                </div>
+            </div>
+        </div>
+    <footer>Developed by Ken Yu</footer>
     <script src="myScript.js"></script>
 
     </body>
