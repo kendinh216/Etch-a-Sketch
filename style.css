@@ -1,12 +1,33 @@
+html{
+    background: url(img/img.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+}
+button{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
 #container{
     display: grid;
     grid-template-columns: auto auto;
 }
 
+.menu-section{
+    display: block;
+    margin: 0 20px;
+}
+
+.buttons{
+    margin: 3px;
+    border-radius: 5px;
+}
 #sketch{
     background: black;
     height: 90vh;
-    width: 50vw;
+    width: 60vw;
     display: grid;
     --setGrid: 16;
     gap: 1px;

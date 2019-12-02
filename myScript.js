@@ -36,7 +36,7 @@ function colorFixed(){
     const blocks = document.querySelectorAll('.block');
     blocks.forEach(block =>{
         block.removeEventListener('mouseenter', colorRandom);
-        block.onmouseenter = () => block.style.background = colorInput.value
+        block.onmouseenter = () => block.style.background = colorInput.value;
     })
 }
 
