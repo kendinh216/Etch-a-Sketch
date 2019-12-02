@@ -1,6 +1,6 @@
 Etch-a-Sketch Project
 
-Open project here: https://kendinh216.github.io/Etch-a-Sketch/etchasketch.html
+Open project here: https://kendinh216.github.io/Etch-a-Sketch/etch-a-sketch.html
 
 About:
 This is a web-based sketch pad that mimics the oldschool toy "etch-a-sketch".
